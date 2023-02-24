@@ -1,0 +1,84 @@
+body{
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	color: #434455;
+	letter-spacing: 0.02em;
+}
+.header {
+}
+.logo {
+	font-family: Raleway, sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 1.33;
+	text-decoration: none;
+	color: #2E2F42;
+}
+.logo-span{
+	color: #4D5AE5;
+}
+.nav-link {
+	font-weight: 500;
+	line-height: 1.5;
+	text-decoration: none;
+	color: #2E2F42;
+}
+.nav-link:hover,
+.nav-link:focus{
+	color: #404BBF;
+}
+.current{
+	color: #404BBF;
+}
+.contact-list {
+}
+.contact-list{
+}
+.contact-link{
+	color: #434455;
+	text-decoration: none;
+}
+.contact-link:hover,
+.contact-link:focus{
+	color: #404BBF;
+}
+.hero {
+	background-color: #2E2F42;
+}
+.hero-title {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07;
+	text-align: center;
+	color: #FFFFFF;
+}
+.hiro-btn {
+}
+.btn {
+}
+.common-section {
+}
+.title {
+}
+.title-list {
+}
+.text-list {
+}
+.work-section {
+}
+.work-list {
+}
+.team-section {
+}
+.team-list {
+}
+.footer {
+}
+/* ============================== */
+
+.portfolio {
+}
+.filter-list {
+}
+.portfolio-list {
+}
