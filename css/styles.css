@@ -18,6 +18,9 @@ body{
 .logo-span{
 	color: #4D5AE5;
 }
+.nav-list{
+	list-style: none;
+}
 .nav-link {
 	font-weight: 500;
 	line-height: 1.5;
@@ -32,24 +35,37 @@ body{
 	color: #404BBF;
 }
 .contact-list{
+	list-style: none;
 }
 .contact-link{
 	color: #434455;
 	text-decoration: none;
+	font-style: normal;
 }
 .contact-link:hover,
 .contact-link:focus{
 	color: #404BBF;
 }
 .hero {
-	background-color: #2E2F42;
 }
 .hero-title {
 	font-weight: 700;
 	font-size: 56px;
 	line-height: 1.07;
 	text-align: center;
-	color: #FFFFFF;
+}
+.visually-hidden{
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
 .button {
 	font-weight: 500;
@@ -73,6 +89,9 @@ body{
 }
 .common-section {
 }
+.common-list{
+	list-style: none;
+}
 .title {
 	font-weight: 700;
 	font-size: 36px;
@@ -92,11 +111,18 @@ body{
 .work-section {
 }
 .work-list {
+	list-style: none;
 }
 .team-section {
 	background-color: #F4F4FD;
 }
 .team-list {
+	list-style: none;
+}
+.team-list>li{
+	background-color: #FFFFFF;
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+	border-radius: 0px 0px 4px 4px;
 }
 .footer {
 	color: #E7E9FC;
@@ -108,9 +134,10 @@ body{
 /* ============================== */
 
 .portfolio {
-	background-color: #E5E5E5;
 }
 .filter-list {
+	list-style: none;
 }
 .portfolio-list {
+	list-style: none;
 }
