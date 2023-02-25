@@ -1,6 +1,7 @@
 body{
 	font-family: Roboto, sans-serif;
 	font-size: 16px;
+	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #434455;
 	background-color: #FFFFFF;
@@ -23,7 +24,6 @@ body{
 }
 .nav-link {
 	font-weight: 500;
-	line-height: 1.5;
 	text-decoration: none;
 	color: #2E2F42;
 }
@@ -68,10 +68,13 @@ body{
 	overflow: hidden;
 }
 .button {
+	font-family: 'Roboto';
 	font-weight: 500;
-	align-items: center;
+	font-size: 16px;
+	line-height: 1.5;
 	letter-spacing: 0.04em;
 	cursor: pointer;
+	border-radius: 4px;
 }
 .button:hover,
 .button:focus {
@@ -81,6 +84,7 @@ body{
 .button-dark {
 	background-color: #4D5AE5;
 	color: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .button-light{
 	background-color: #F4F4FD;
@@ -106,7 +110,6 @@ body{
 	color: #2E2F42;
 }
 .text-list {
-	line-height: 1.5;
 }
 .work-section {
 }
